@@ -11,9 +11,5 @@
       "src": "/api/(.*)",
       "dest": "index.ts"
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@database_url",
-    "JWT_SECRET": "@jwt_secret"
-  }
+  ]
 } 
